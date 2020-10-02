@@ -1,0 +1,48 @@
+.newsContainer {
+    background-image: url(../../../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* background-color: lightgray; */
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    min-height: 70vh;
+    height: auto;
+    padding: 70px;
+    position: relative;
+    padding-top: 150px;
+}
+
+.newsContainer >p{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+/* written by shayan */
+.newsCard{
+    width: 250px;
+    height:  400px;
+    margin: 50px 0;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    /* height: 100%; */
+}
+.newsDesc{
+    display: flex;
+    width: 80%;
+    margin: 20px auto 50px auto;
+    /* border: 1px solid #000; */
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.newsDesc p:first-child{
+    text-align: right;
+}

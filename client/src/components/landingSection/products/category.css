@@ -1,0 +1,30 @@
+.catagories {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: stretch;
+}
+.categoryCard {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 5%;
+}
+.categoryImage {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.categoryLink {
+    text-align: center;
+    color: white;
+    width: auto;
+    border-radius: 10px;
+    background-color: #0091d0;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,36 @@
+.ourProduct {
+    color: #9900ff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+footer{
+    width: 100%;
+    background-color: gray;
+    padding: 20px 20px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.footerContainer{
+    padding: 0 7%;
+    width: 100%;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footerContainer>li{
+    padding: 8px;
+    color: white;
+    width: 50%;
+}

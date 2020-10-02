@@ -1,0 +1,13 @@
+.storySliderContainer{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.carousel-initialized{
+    padding: 50px;  
+    border: none !important;
+}
+.storyText{
+    width: 70%;
+    margin: 30px auto;
+}

@@ -1,0 +1,82 @@
+.App{
+  position: relative;
+  min-height: 100vh;
+}
+main{
+  /* min-height: 45vh; */
+}
+img {
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+.landing {
+  position: relative;
+  background: url('./img/NikpouyanQ01399.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+
+
+
+
+@font-face {
+  font-family: "iranSans";
+  /* src: url("./source/fonts/IRANSans\ \(1\).eot"); */
+  src: url("./fonts/IRANSans\ \(1\).eot");
+  src: url("./fonts/IRANSans\ \(1\).woff") format("woff");
+  src: url("./fonts/IRANSans\ \(1\).woff2") format("woff2"),
+  url("./fonts/IRANSans-Black.ttf") format("opentype"),
+
+}
+@font-face {
+  font-family: "Titles";
+  src: url("./fonts/IRANSans\ \(1\).eot");
+  src: url("./fonts/IRANSans\ \(1\).woff") format("woff");
+  src: url("./fonts/IRANSans\ \(1\).woff2") format("woff2"),
+  url("./fonts/IRANSans\ \(1\).eot") format("opentype"),
+}
+h{
+  font-family: 'Titles', sans-serif !important;
+  font-weight: 900;
+  font-size: 3rem; 
+}
+p{
+  font-family: 'iranSans', sans-serif;
+  font-size: 1rem;
+  line-height: 2em;
+}
+a{
+  font-family: 'iranSans', sans-serif !important;
+}
