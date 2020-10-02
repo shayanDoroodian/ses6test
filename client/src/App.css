@@ -2,9 +2,7 @@
   position: relative;
   min-height: 100vh;
 }
-main{
-  /* min-height: 45vh; */
-}
+
 img {
   width: 100%;
 }
